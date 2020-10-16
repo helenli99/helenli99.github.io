@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Helen's personal website</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/project_style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Search Area -->
+<nav class= "navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class= "container-fluid">
+		<img class = "logo" src="img/logo.png" alt = "logo">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="resume.html">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="project.html">Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="life.html">Life</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<br>
+<br>
+
+<!--- Title: introduce project -->
+<div class = "container-fluid padding">
+	<div class = "row welcome text-center">
+		<div class = "col-12">
+			<h1 class="display-4">Project</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p>Projects are a great way to combine theoretical and practical skills in computer science. And Doing projects improves
+			my problem-solving skills. Here is the list of projects I have completed:</p>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+	
+<!--- Projects -->
+<div class = "container-fluid padding">
+	<div class = "row padding">
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/picar.jpg" alt = "Picar-B">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">Analysis Multimedia Technology of Picar-B Mars Rover</h4>
+					<p class = "card-text">This project is made in November 2019. And We built an auto-driving 
+					robot car with object detection, ultrasonic scanner and remote control features. The code is written
+					by Python, and we also use HTML and CSS to create a website. All the source code and related video 
+					can be viewed in this website.</p>
+					<a href="../csc461_website/main.html" class= "btn btn-primary mt-auto">See Website</a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/nim.svg" alt = "Nim Game">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">Find the Best Solutions to Win in Nim Games</h4>
+					<p class = "card-text">This project is made in September 2019. And I used the alpha-beta pruning 
+					algorithm to do the search. The step is to receive the result after the player playing and then 
+					put the stage into the tree to analyze the most reasonable way to win. The code is written by Java, 
+					and source code can be view through the following button.</p>
+					<a href="https://github.com/helenli99/NimGame" class= "btn btn-primary mt-auto">See Source Code</a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/lg.png" alt = "Linear Regression">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">Train a Linear Regression Model</h4>
+					<p class = "card-text">This project is made in February 2019. And I used three different algorithms 
+					to train the linear regression model. The step is to use the sample data to update 
+					weight repeatedly to get the most suitable model. The code is written by Python, 
+					and source code can be view through the following button.</p>
+					<a href="https://github.com/helenli99/regression_model" class= "btn btn-primary mt-auto">See Source Code</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+<div class = "container-fluid padding">
+	<div class = "row padding">
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/similar.png" alt = "Similar Questions">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">Find Similar Questions in a Large Dataset</h4>
+					<p class = "card-text">This project is made in January 2019. And I used locality sensitive hashing 
+					algorithm to find similar questions in a large dataset. The step is to permute data several times 
+					to create the signature, hash them by using different hash functions and then filter the 
+					similar questions in a bucket. The code is written by Python, and source code can be view through the following button.</p>
+					<a href="https://github.com/helenli99/find_similar" class= "btn btn-primary mt-auto">See Source Code</a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/airline.png" alt = "Airline Check-in">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">Airline Check-in System</h4>
+					<p class = "card-text">This project is made in October 2018. And I designed the multi-thread program 
+					with mutex lock and conditional variables to control the program and simulate a check-in 
+					system with customers and clerks to rocess the work. The code is written by C, and source code can 
+					be view through the following button.</p>
+					<a href="https://github.com/helenli99/Airline_checking" class= "btn btn-primary mt-auto">See Source Code</a>
+				</div>
+			</div>
+		</div>
+		<div class = "col-md-4 d-flex align-items-stretch">
+			<div class = "card">
+				<img class = "card-imd-top img-fluid" src = "img/sat.png" alt = "Sudoku">
+				<div class= "card-body d-flex flex-column">
+					<h4 class = "card-title text-center">SAT Based Sudoku Solving</h4>
+					<p class = "card-text">This project is made in August 2018. The step is to read in a Sudoku puzzle and 
+					then translate it to a CNF formula which allows us to input it into a miniSAT SAT solver. After getting 
+					the result, decode and output the solved puzzle. The code is written by Java, and source code can be 
+					view through the following button.</p>
+					<a href="https://github.com/helenli99/sudoku" class= "btn btn-primary mt-auto">See Source Code</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<br>
+<br>
+
+<!--- Footer -->
+<footer>
+	<div class = "container-fluid padding">
+	<div class = "row text-center">
+		<div class="col-12">
+			<h5>&copy;2020 Helen's Personal Website</h5>
+		</div>
+	</div>
+	</div>
+</footer>
+
+</body>
+</html>
