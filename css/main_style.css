@@ -116,7 +116,7 @@ figure {
     height: 100%;
   }
   #fixed {
-    background-image: url('img/first.png');
+    background-image: url('../img/first.png');
     position: fixed;
     display: block;
     top: 0;
